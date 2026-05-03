@@ -10,7 +10,7 @@ def home(request):
     categories = Category.objects.all()
 
     selected_date = request.GET.get('date')
-    selected_category = request.GET.get('category')git
+    selected_category = request.GET.get('category')
     today_filter = request.GET.get('today')
 
     # кнопка Сегодня
